@@ -1,18 +1,11 @@
-<table align="center" width="100%"">
+<table>
   <tr>
-    <td colspan="2" align="center" style="padding-bottom: 24px;">
-      <h1 align="center" style="font-size:1.5em;">
-        Hey there, I'm 
-      </h1>
-      <div style="font-size:1.5em; font-weight:bold;">ADITYA BAJAJ</div>
-    </td>
-  </tr>
-  <tr width:30%>
-    <td align="center" valign="middle" style="width:340px; padding-right: 24px;">
-      <img src="devcard.png" alt="Dev Card" style="width:500px;height:200px; border-radius:18px; box-shadow:0 2px 12px #2223;" />
-    </td>
-    <td align="center" valign="middle" style="padding-left: 24px;">
-      <img src="linkedbanner.png" alt="Banner" style="max-width:600px; width:100%; border-radius:12px; box-shadow:0 2px 18px #2223;" />
+        <td style="vertical-align: middle; text-align: center; width: 40%;">
+      <img src="devcard.png" alt="Dev Card" width="300" height="750"></td>
+    <td style="vertical-align: middle; text-align: center; width: 60%;">
+      <h1 align="center">Hey there, I'm Aditya Bajaj 👋👨‍💻</h1>
+      <h5 align="center">Forward-thinking ML engineer leveraging cloud infrastructure and AI to architect future-ready solutions in a rapidly evolving tech landscape.<br><br>
+      Familiar with using TensorFlow and NLTK modules in practical, hands-on projects.</h5>
     </td>
   </tr>
 </table>
