@@ -9,7 +9,7 @@
   </tr>
   <tr width:30%>
     <td align="center" valign="middle" style="width:340px; padding-right: 24px;">
-      <img src="devcard.png" alt="Dev Card" style="width:400px;height:200px; border-radius:18px; box-shadow:0 2px 12px #2223;" />
+      <img src="devcard.png" alt="Dev Card" style="width:500px;height:200px; border-radius:18px; box-shadow:0 2px 12px #2223;" />
     </td>
     <td align="center" valign="middle" style="padding-left: 24px;">
       <img src="linkedbanner.png" alt="Banner" style="max-width:600px; width:100%; border-radius:12px; box-shadow:0 2px 18px #2223;" />
