@@ -9,7 +9,7 @@ on:
       # every 6 hours
     - cron: "0 */6 * * *"
 
-# This command allows us to run the Action automatically from the Actions tab.
+  # This command allows us to run the Action automatically from the Actions tab.
   workflow_dispatch:
 
 # The sequence of runs in this workflow:
@@ -34,15 +34,15 @@ jobs:
           gif_out_path: dist/github-contribution-grid-snake.gif
           svg_out_path: dist/github-contribution-grid-snake.svg
 
-     # show the status of the build. Makes it easier for debugging (if there's any issues).
+      # show the status of the build. Makes it easier for debugging (if there's any issues).
       - run: git status
 
-      # Push the changes
+      # Push the changes to the output branch (not master)
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: master
+          branch: output
           force: true
 
       - uses: crazy-max/ghaction-github-pages@v2.1.3
