@@ -20,9 +20,11 @@ jobs:
       - name: Pull Changes from Remote
         run: git pull origin main
       - name: Commit & Push
+        env:
+          TOKEN: ${{ secrets.PERSONAL_TOKEN }}
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add -A .
-          git commit -m "generated"
-          git push -f origin main
+          git commit -m "generated" || echo "No changes to commit"
+          git push -f https://x-access-token:${TOKEN}@github.com/itsadi1/itsadi1.git main
