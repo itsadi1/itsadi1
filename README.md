@@ -3,7 +3,7 @@
         <td style="vertical-align: middle; text-align: center; width: 40%;">
       <img src="devcard.png" alt="Dev Card" width="300" height="750"></td>
     <td style="vertical-align: middle; text-align: center; width: 60%;">
-      <h1 align="center">Hey there, <i>I'm Aditya Bajaj</i></h1>
+      <h1 align="center">Hey there, I'm <i>Aditya Bajaj</i></h1>
       <h5 align="center">Forward-thinking ML engineer leveraging cloud infrastructure and AI to architect future-ready solutions in a rapidly evolving tech landscape.<br><br>
       Familiar with using TensorFlow and NLTK modules in practical, hands-on projects.</h5>
     </td>
